@@ -1,1 +1,13 @@
-{}
+{
+  "sonarr-devel": {
+    "MANIFEST": "sonarr-devel.json",
+    "name": "Sonarr Devel",
+    "icon": "https://icons.freenas.org/community-icons/sonarr.png",
+    "description": "Multi-platform app to search, download, and manage TV shows.",
+    "official": true,
+    "primary_pkg": "sonarr",
+    "category": "content",
+    "maintainer": "iXsystems <dev@ixsystems.com>",
+    "homepage": "https://sonarr.tv/"
+  }
+}
