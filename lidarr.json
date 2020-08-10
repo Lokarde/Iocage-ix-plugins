@@ -1,7 +1,7 @@
 {
     "name": "Lidarr",
     "release": "11.3-RELEASE",
-    "artifact": "https://github.com/freenas/iocage-plugin-sonarr.git",
+    "artifact": "https://github.com/Lokarde/iocage-plugin-lidarr.git",
     "official": false,
     "pkgs": [
         "lidarr"
