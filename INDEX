@@ -9,5 +9,16 @@
     "category": "content",
     "maintainer": "iXsystems <dev@ixsystems.com>",
     "homepage": "https://sonarr.tv/"
+  },
+  "lidarr": {
+    "MANIFEST": "lidarr.json",
+    "name": "Lidarr",
+    "icon": "https://lidarr.audio/img/logo.png",
+    "description": "Multi-platform app to search, download, and manage TV shows.",
+    "official": true,
+    "primary_pkg": "lidarr",
+    "category": "content",
+    "maintainer": "Hugo Lecourt <hugo.lecourt@hugolecourt.fr>",
+    "homepage": "https://lidarr.audio/"
   }
 }
