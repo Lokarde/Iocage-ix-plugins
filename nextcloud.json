@@ -9,7 +9,7 @@
         "nat_forwards": "tcp(80:8282)"
     },
     "pkgs": [
-        "php72-pecl-smbclient",
+        "php74-pecl-smbclient",
         "nextcloud-php74",
         "php74-pecl-imagick-im7",
         "php74-bcmath",
