@@ -20,5 +20,16 @@
     "category": "content",
     "maintainer": "Hugo Lecourt <hugo.lecourt@hugolecourt.fr>",
     "homepage": "https://lidarr.audio/"
+  },
+  "nextcloud": {
+      "MANIFEST": "nextcloud.json",
+      "name": "Nextcloud",
+      "icon": "https://www.trueos.org/iocage-icons/nextcloud.png",
+      "description": "Suite of client-server software for creating and using file hosting services.",
+      "official": true,
+      "primary_pkg": "nextcloud-php74",
+      "category": "collaboration",
+      "maintainer": "iXsystems <dev@ixsystems.com>",
+      "homepage": "https://nextcloud.com/"
   }
 }
