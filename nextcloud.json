@@ -11,7 +11,7 @@
     "pkgs": [
         "ffmpeg",
         "nextcloud-php80",
-        "php74-pecl-smbclient",
+        "php80-pecl-smbclient",
         "php80-pecl-imagick-im7",
         "php80-bcmath",
         "php80-gmp",
