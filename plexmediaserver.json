@@ -1,16 +1,15 @@
 {
-    "name": "Sonarr Devel",
-    "release": "11.3-RELEASE",
-    "artifact": "https://github.com/freenas/iocage-plugin-sonarr.git",
-    "official": false,
-    "pkgs": [
-        "sonarr-devel"
-    ],
+    "name": "Plex",
+    "release": "13.1-RELEASE",
+    "artifact": "https://github.com/freenas/iocage-plugin-plexmediaserver.git",
+    "official": "false",
     "properties": {
-        "allow_sysvipc": 1,
-        "nat": 1,
-        "nat_forwards": "tcp(8989:8989)"
+        "dhcp": 1
     },
+    "pkgs": [
+        "plexmediaserver",
+        "ffmpeg"
+    ],
     "packagesite": "http://pkg.FreeBSD.org/${ABI}/latest",
     "fingerprints": {
         "iocage-plugins": [

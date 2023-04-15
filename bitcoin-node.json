@@ -1,16 +1,15 @@
 {
-    "name": "Lidarr",
-    "release": "11.3-RELEASE",
-    "artifact": "https://github.com/freenas/iocage-plugin-sonarr.git",
+    "name": "bitcoin-node",
+    "plugin_schema": "2",
+    "release": "12.2-RELEASE",
+    "artifact": "https://github.com/freenas/iocage-plugin-bitcoin-node.git",
     "official": false,
-    "pkgs": [
-        "lidarr"
-    ],
     "properties": {
-        "allow_sysvipc": 1,
-        "nat": 1,
-        "nat_forwards": "tcp(8989:8989)"
+        "nat": 1
     },
+    "pkgs": [
+        "net-p2p/bitcoin-daemon"
+    ],
     "packagesite": "http://pkg.FreeBSD.org/${ABI}/latest",
     "fingerprints": {
         "iocage-plugins": [
