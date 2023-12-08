@@ -1,7 +1,7 @@
 {
     "name": "Nextcloud",
     "plugin_schema": "2",
-    "release": "13.1-RELEASE",
+    "release": "13.2-RELEASE",
     "artifact": "https://github.com/freenas/iocage-plugin-nextcloud.git",
     "official": false,
     "properties": {
@@ -11,7 +11,7 @@
     "pkgs": [
         "ffmpeg",
         "nextcloud-php80",
-        "php80-pecl-imagick-im7",
+        "php80-pecl-imagick-3.7.0_2",
 	"php80-pecl-smbclient",
         "php80-bcmath",
         "php80-gmp",
